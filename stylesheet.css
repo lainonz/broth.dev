@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Ubuntu&display=swap');
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px blue;
+}
+
+body {
+    font-family: 'Fira Code', monospace !important;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://broth.dev/files/stars.gif");
+    text-shadow: 0px 0px 10px #ffffff;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Fira Code', monospace !important;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+.heading pre {
+    font-size: 1vw;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.navbar {
+    text-align: center;
+    height: 20pt;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar .link {
+    font-family: 'Ubuntu', sans-serif !important;
+    color: white;
+    align: center;
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+    margin: 0px;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    text-decoration: none;
+    border: 1px white solid;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    transition: background .35s, color .2s;
+}
+
+.navbar .link:hover {
+    color: black !important;
+    background-color: white;
+    text-shadow: none !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid white;
+    width: auto;
+		min-width: 25vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2em;
+    color: white;
+    text-align: center;
+    /*background-color: rgba(255, 192, 203, 0.2);*/
+}
+
+.tabtitle {
+    display: block;
+    font-size: 14px;
+    color: black;
+    background: white;
+    padding-left: 0.5em;
+    text-align: left;
+}
+
+.badges {
+    text-align: center;
+}
+
+.cozy {
+    display: block;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: fixed;
+}
+
+/* Mobile Formatting */
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 90vw;
+        margin: 1vw;
+    }
+}
+
