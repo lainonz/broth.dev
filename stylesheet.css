@@ -56,7 +56,7 @@ body {
     margin-bottom: 20px;
 }
 
-.navbar .link {
+.navbar .mylink {
     font-family: 'Ubuntu', sans-serif !important;
     color: white;
     align: center;
@@ -73,7 +73,7 @@ body {
     transition: background .35s, color .2s;
 }
 
-.navbar .link:hover {
+.navbar .mylink:hover {
     color: black !important;
     background-color: white;
     text-shadow: none !important;
